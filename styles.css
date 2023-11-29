@@ -10,8 +10,35 @@ h1{
   font-weight: 300;
   color:  #B9B4C7;
   top: 160px;
-
 }
+
+.anim{
+  background-color:hsl(178, 100%, 50%);
+  position: absolute;
+  left: 18px;
+  opacity: 10%;
+  bottom: 186px; 
+  width: 195px;
+  height: 195px;
+  cursor: pointer;
+  }
+
+  .anim:hover{
+    opacity: 60%;
+  }
+
+  .eye{
+    position: relative;
+    left:75px;
+    top: 75px;
+    cursor: pointer;
+    opacity: 10%;
+  }
+
+  .eye:hover{
+    opacity: 95%;
+    color: #ffffff;
+  }
 
 .bgbox{
   background-color:  hsl(215, 32%, 27%) ;
@@ -89,6 +116,10 @@ h2{
   font-size: 13px;
 }
 
+.name:hover{
+  color:hsl(178, 100%, 50%);
+}
+
 .descp{
   color:#B9B4C7;
   position: relative;
@@ -122,4 +153,8 @@ a{
   font-family: 'Outfit', sans-serif;
   font-size: 17px;
   color:  hsl(0, 0%, 100%);
+}
+
+a:hover{
+  color: hsl(178, 100%, 50%);
 }
