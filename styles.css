@@ -1,0 +1,125 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+}
+
+h1{
+  position: relative;
+  left: 21px;
+  font-size: 12px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  color:  #B9B4C7;
+  top: 160px;
+
+}
+
+.bgbox{
+  background-color:  hsl(215, 32%, 27%) ;
+  position: relative;
+  color: red;
+  opacity: 4%;
+  position: absolute;
+  left: 370px;
+  top: 140px;
+  border-radius:10px;
+  width: 245px;
+  height: 400px;
+}
+
+.num{
+  color: hsl(178, 100%, 50%);
+  position: relative;
+  left: 38px;
+  bottom: 44px;
+  font-size: 11px;
+}
+
+.ethereum{
+  position: relative;
+  left: 24px;
+  bottom: 28px;
+}
+
+.clock{
+  position: relative;
+  left: 153px;
+  width: 13px;
+  bottom: 58px;
+}
+
+h2{
+  color: #B9B4C7;
+  position: relative;
+  left: 170px;
+  font-size: 11px;
+  bottom: 83.5px;
+}
+
+.ethr{
+  width: 6px;
+}
+
+.box{
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  position: relative;
+  width: 230px;
+  left: 370px;
+  top: 110px;
+  height: 330px;
+  padding-top: 70px;
+}
+
+.image{
+  position: relative;
+  left: 17px;
+  bottom: 120px;
+}
+
+.avatar{
+  position: relative;
+  left: 20px;
+  width: 30px;
+  bottom: 65px;
+  border-color: #ffffff;
+}
+
+.name{
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.descp{
+  color:#B9B4C7;
+  position: relative;
+  bottom: 90px; 
+  font-size: 13px;
+  left: 62px;
+}
+
+hr{
+  position: relative;
+  left: 0.5px;
+  color: hsl(215, 32%, 27%);
+  width: 200px;
+  border-bottom: none; 
+  border-left: none; 
+  border-right: none; 
+  opacity: 50%;
+  bottom: 65px;
+}
+
+.img{
+  border-radius: 6px;
+  width: 195px;
+}
+
+a{
+  position: relative;
+  left: 21px;
+  top: 154px;
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+  font-size: 17px;
+  color:  hsl(0, 0%, 100%);
+}
